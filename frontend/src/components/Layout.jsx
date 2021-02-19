@@ -3,7 +3,7 @@ import Header from "./Header"
 const Layout = ({ data, children }) => {
   return (
     <div>
-      <Header menu={data?.menus?.headerMenu} />
+      <Header header={data?.header} menu={data?.menus?.headerMenu} />
       {children}
     </div>
   )
